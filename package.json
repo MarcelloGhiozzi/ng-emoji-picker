@@ -3,6 +3,9 @@
   "version": "1.2.4",
   "description": "Angular 2 Emoji Picker",
   "main": "index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lbertenasco/ng-emoji-picker.git"
