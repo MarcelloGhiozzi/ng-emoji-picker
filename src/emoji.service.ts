@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { EMOJI_DB } from './emoji.db';
+import { EMOJI_DB, Emoji } from './emoji.db';
 
 @Injectable()
 export class EmojiService {
@@ -18,8 +18,8 @@ export class EmojiService {
     return emoji;
   }
 
-  getAll() {
-    return EMOJI_DB;
+  getAll(): Emoji[] {
+    return EMOJI_DB.filter(emojiData => !!emojiData.emoji);
   }
 
   emojify(str) {

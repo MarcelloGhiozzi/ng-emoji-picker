@@ -1,4 +1,5 @@
-export const EMOJI_DB: any = [{
+export interface Emoji {emoji?: string, description?: string, aliases?: string[], tags?: string[]}
+export const EMOJI_DB: Emoji[] = [{
   "emoji": "😄",
   "description": "smiling face with open mouth and smiling eyes",
   "aliases": [

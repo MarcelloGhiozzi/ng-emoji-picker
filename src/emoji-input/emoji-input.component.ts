@@ -123,7 +123,7 @@ export class EmojiInputComponent implements OnInit, AfterViewInit, OnChanges {
   @Input() inputClass = '';
   @Input() searchClass = '';
   @Input() onEnter: Function = () => {};
-  @Input() model: any;
+  @Input() model: any = '';
   @Input() autofocus: boolean = false;
   @Input() closeAfterSelection: boolean = true;
 
