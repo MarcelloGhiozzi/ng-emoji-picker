@@ -1,6 +1,36 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EMOJI_DB = [{
+exports.EMOJI_DB = [
+    { emoji: '🥅', description: '', aliases: [], tags: [] },
+    { emoji: '💛', description: '', aliases: [], tags: [] },
+    { emoji: '💙', description: '', aliases: [], tags: [] },
+    { emoji: '💪', description: '', aliases: [], tags: [] },
+    { emoji: '👏', description: '', aliases: [], tags: [] },
+    { emoji: '👍', description: '', aliases: [], tags: [] },
+    { emoji: '👉', description: '', aliases: [], tags: [] },
+    { emoji: '👀', description: '', aliases: [], tags: [] },
+    { emoji: '😁', description: '', aliases: [], tags: [] },
+    { emoji: '😍', description: '', aliases: [], tags: [] },
+    { emoji: '😃', description: '', aliases: [], tags: [] },
+    { emoji: '😉', description: '', aliases: [], tags: [] },
+    { emoji: '⚽', description: '', aliases: [], tags: [] },
+    { emoji: '1️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '2️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '3️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '4️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '5️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '6️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '7️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '8️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '9️⃣', description: '', aliases: [], tags: [] },
+    { emoji: '🔟', description: '', aliases: [], tags: [] },
+    { emoji: '🤩', description: '', aliases: [], tags: [] },
+    { emoji: '😱', description: '', aliases: [], tags: [] },
+    { emoji: '😎', description: '', aliases: [], tags: [] },
+    { emoji: '⬇️', description: '', aliases: [], tags: [] },
+    { emoji: '⬆️', description: '', aliases: [], tags: [] },
+    { emoji: '🔝', description: '', aliases: [], tags: [] },
+    {
         "emoji": "😄",
         "description": "smiling face with open mouth and smiling eyes",
         "aliases": [
@@ -6669,5 +6699,6 @@ exports.EMOJI_DB = [{
             "trollface"
         ],
         "tags": []
-    }];
+    }
+];
 //# sourceMappingURL=emoji.db.js.map
